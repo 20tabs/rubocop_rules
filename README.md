@@ -6,7 +6,7 @@ Put the following in your `.rubocop.yml` file:
 
 ```yaml
 inherit_gem:
-  rubocop-rails-omakase: rubocop.yml
+  maps_rubocop: rubocop.yml
 ```
 
 ## License
