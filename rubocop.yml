@@ -4,6 +4,10 @@ AllCops:
 require:
   - rubocop-performance
   - rubocop-rails
+  - rubocop-rspec
+  - rubocop-rspec_rails
+  - rubocop-capybara
+  - rubocop-factory_bot
 
 inherit_mode:
   merge:
@@ -24,7 +28,19 @@ Metrics/BlockLength:
 Metrics/ClassLength:
   Enabled: false
 
+Metrics/CyclomaticComplexity:
+   Enabled: false
+
 Metrics/MethodLength:
+  Enabled: false
+
+Metrics/ParameterLists:
+  Enabled: false
+
+Metrics/PerceivedComplexity:
+  Enabled: false
+
+Naming/PredicateName:
   Enabled: false
 
 Performance/FlatMap:
@@ -39,16 +55,37 @@ Naming/VariableNumber:
 Naming/MemoizedInstanceVariableName:
   Enabled: false
 
+Rails/BulkChangeTable:
+  Enabled: false
+
 Rails/HasManyOrHasOneDependent:
   Enabled: false
 
+Rails/OutputSafety:
+  Enabled: false
+
 Rails/SkipsModelValidations:
+  Enabled: false
+
+RSpec/ExampleLength:
+  Enabled: false
+
+RSpec/MultipleExpectations:
+  Enabled: false
+
+RSpec/LetSetup:
+  Enabled: false
+  
+Style/ArgumentsForwarding:
   Enabled: false
 
 Style/ClassAndModuleChildren:
   Enabled: false
 
 Style/Documentation:
+  Enabled: false
+
+Style/FormatStringToken:
   Enabled: false
 
 Style/GuardClause:
