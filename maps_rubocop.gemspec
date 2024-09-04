@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
 
   s.license = "MIT"
 
-  s.version = "1.0.1"
+  s.version = "1.0.2"
   s.platform = Gem::Platform::RUBY
 
   s.add_dependency "rubocop"
