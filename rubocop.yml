@@ -1,4 +1,6 @@
-require: rubocop-rails
+require:
+  - rubocop-performance
+  - rubocop-rails
 
 inherit_mode:
   merge:
@@ -21,6 +23,12 @@ Metrics/ClassLength:
 
 Metrics/MethodLength:
   Enabled: false
+
+Performance/FlatMap:
+  Enabled: true
+
+Performance/UnfreezeString:
+  Enabled: true
 
 Naming/VariableNumber:
   Enabled: false
@@ -55,6 +63,15 @@ Style/EmptyMethod:
 Layout/BeginEndAlignment:
   Enabled: false
 
+Layout/EndAlignment:
+  Enabled: true
+  EnforcedStyleAlignWith: variable
+  AutoCorrect: true
+
 Style/StringLiterals:
   Enabled: true
   EnforcedStyle: double_quotes
+
+Layout/CaseIndentation:
+  Enabled: true
+  EnforcedStyle: end
