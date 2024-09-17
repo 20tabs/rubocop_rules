@@ -1,9 +1,9 @@
 Gem::Specification.new do |s|
-  s.name = "maps_rubocop"
-  s.summary = "MAPS rubocop rules"
-  s.author = "Jacko Zuidema"
-  s.email = "jacko@hey.com"
-  s.homepage = "https://github.com/jackozi/maps_rubocop"
+  s.name = "twenty_rubocops"
+  s.summary = "20Tabs' Rubocop rules"
+  s.author = "20Tabs"
+  s.email = "jacko@20tabs.nl"
+  s.homepage = "https://github.com/20tabs/rubocop_rules"
 
   s.license = "MIT"
 

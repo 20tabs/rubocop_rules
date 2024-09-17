@@ -8,6 +8,7 @@ require:
   - rubocop-rspec_rails
   - rubocop-capybara
   - rubocop-factory_bot
+  - ./lib/twenty_cops/unscoped.rb
 
 inherit_mode:
   merge:
@@ -75,7 +76,7 @@ RSpec/MultipleExpectations:
 
 RSpec/LetSetup:
   Enabled: false
-  
+
 Style/ArgumentsForwarding:
   Enabled: false
 
