@@ -6,7 +6,7 @@ Put the following in your `.rubocop.yml` file:
 
 ```yaml
 inherit_gem:
-  maps_rubocop: rubocop.yml
+  twenty_rubocops: rubocop.yml
 ```
 
 ## License
