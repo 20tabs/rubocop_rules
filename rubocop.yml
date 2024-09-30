@@ -119,3 +119,7 @@ Style/StringLiterals:
 Layout/CaseIndentation:
   Enabled: true
   EnforcedStyle: end
+
+Layout/FirstArrayElementIndentation:
+  Enabled: true
+  EnforcedStyle: consistent
