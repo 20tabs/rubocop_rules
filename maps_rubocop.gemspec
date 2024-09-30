@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 Gem::Specification.new do |s|
   s.name = "twenty_rubocops"
   s.summary = "20Tabs' Rubocop rules"
