@@ -29,6 +29,9 @@ Metrics/BlockLength:
 Metrics/ClassLength:
   Enabled: false
 
+Rails/DynamicFindBy:
+  Enabled: false
+
 Metrics/ModuleLength:
   Enabled: false
 
