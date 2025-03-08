@@ -1,13 +1,15 @@
 AllCops:
   NewCops: enable
 
-require:
+plugins:
   - rubocop-performance
   - rubocop-rails
   - rubocop-rspec
+  - rubocop-factory_bot
+
+require: 
   - rubocop-rspec_rails
   - rubocop-capybara
-  - rubocop-factory_bot
   - ./lib/twenty_cops/unscoped.rb
 
 inherit_mode:
