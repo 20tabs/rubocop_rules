@@ -9,7 +9,7 @@ plugins:
   - rubocop-rspec_rails
   - rubocop-capybara
 
-require: 
+require:
   - ./lib/twenty_cops/unscoped.rb
 
 inherit_mode:
@@ -49,7 +49,7 @@ Metrics/ParameterLists:
 Metrics/PerceivedComplexity:
   Enabled: false
 
-Naming/PredicateName:
+Naming/PredicatePrefix:
   Enabled: false
 
 Performance/FlatMap:
