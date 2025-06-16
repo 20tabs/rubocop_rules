@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.required_ruby_version = ">= 3.4.0"
   s.license = "MIT"
 
-  s.version = "1.0.4"
+  s.version = "1.0.5"
   s.platform = Gem::Platform::RUBY
 
   s.add_dependency "rubocop"
