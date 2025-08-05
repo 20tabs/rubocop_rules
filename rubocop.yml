@@ -22,6 +22,9 @@ Layout/LineLength:
 Lint/MissingSuper:
   Enabled: false
 
+Lint/AmbiguousBlockAssociation:
+  Enabled: false
+
 Metrics/AbcSize:
   Enabled: false
 
