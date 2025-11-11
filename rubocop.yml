@@ -140,3 +140,6 @@ Lint/AssignmentInCondition:
 
 Layout/MultilineMethodCallIndentation:
   Enabled: false
+
+RSpec/NestedGroups:
+  Enabled: false
