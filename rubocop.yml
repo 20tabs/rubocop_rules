@@ -137,3 +137,6 @@ Layout/FirstArrayElementIndentation:
 
 Lint/AssignmentInCondition:
   Enabled: false
+
+Layout/MultilineMethodCallIndentation:
+  Enabled: false
