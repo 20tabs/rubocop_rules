@@ -143,3 +143,6 @@ Layout/MultilineMethodCallIndentation:
 
 RSpec/NestedGroups:
   Enabled: false
+
+RSpec/AnyInstance:
+  Enabled: false
