@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.author = "20Tabs"
   s.email = "jacko@20tabs.nl"
   s.homepage = "https://github.com/20tabs/rubocop_rules"
-  s.required_ruby_version = ">= 3.4.0"
+  s.required_ruby_version = ">= 4.0.0"
   s.license = "MIT"
 
   s.version = "1.0.5"
