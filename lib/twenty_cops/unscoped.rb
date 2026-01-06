@@ -2,7 +2,7 @@
 
 module TwentyRubocops
   module TwentyCops
-    class Unscoped < RuboCop::Cop::Base
+    class Unscoped < RuboCop::Cop::Cop
       MSG = "Unscoped used without explanation."
 
       def_node_matcher :unscoped?, "(send _ :unscoped)"
