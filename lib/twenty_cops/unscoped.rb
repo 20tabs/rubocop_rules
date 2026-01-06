@@ -2,7 +2,7 @@
 
 module TwentyRubocops
   module TwentyCops
-    class Unscoped < RuboCop::Cop::Cop
+    class Unscoped < RuboCop::Cop::Base
       MSG = "Unscoped used without explanation."
 
       def_node_matcher :unscoped?, "(send _ :unscoped)"
@@ -16,7 +16,7 @@ module TwentyRubocops
       def check_unscoped_comment(node)
         return if associated_comment?(node)
 
-        add_offense(node, location: :selector)
+        add_offense(node)
       end
 
       def associated_comment?(node)
